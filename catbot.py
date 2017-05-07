@@ -34,7 +34,7 @@ def callback_buttons(call):
 @bot.message_handler(commands=['start'])
 def welcome(message):
     bot.send_chat_action(message.chat.id, action='typing')
-    bot.send_message(message.chat.id, 'I am a CatBot and I send CatGifs. Write /cat and relax 😸.')
+    bot.send_message(message.chat.id, 'I am a CatBot and I send CatGifs. Write /cat and relax 😸')
 
 
 @bot.message_handler(commands=['cat'])
