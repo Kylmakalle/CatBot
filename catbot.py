@@ -20,7 +20,7 @@ def gettingcats(message):
         if match:
             bot.send_document(message.chat.id, match.group(0)[5:], reply_markup=mark)
     except:
-        bot.send_message(message.chat.id, 'Something wrong with Cats 😞\n Try again')
+        bot.send_message(message.chat.id, 'Something wrong with Cats 😞\nTry again')
 
 
 @bot.callback_query_handler(func=lambda call: True)
