@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
+import os
 import re
 
 import requests
 import telebot
-from catbottoken import token
 from telebot import types
+
+token = os.environ['TELEGRAM_TOKEN']
 
 bot = telebot.TeleBot(token)
 
