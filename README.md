@@ -44,7 +44,7 @@ heroku login
 heroku create catbot # create app (may not be available, try your own)
 heroku buildpacks:set heroku/python # set python buildpack
 git push heroku master # deploy app to heroku
-heroku config:set TELEGRAM_TOKEN='<TELEGRAM_TOKEN>' # set config vars
+heroku config:set TELEGRAM_TOKEN=123456789:AAABBBCCCDDDEEEFFFGGGHHHIIIJJJKKKLL # set config vars, insert your own from [@BotFather](http://telegram.me/botfather)
 heroku ps:scale bot=1 # start 1 bot dyno
 heroku ps:stop bot # or stop bot dyno
 ```
