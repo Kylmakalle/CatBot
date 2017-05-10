@@ -1,1 +1,1 @@
-worker: python3 catbot.py
+bot: python3 catbot.py
