@@ -45,8 +45,8 @@ heroku create catbot # create app (may not be available, try your own)
 heroku buildpacks:set heroku/python # set python buildpack
 git push heroku master # deploy app to heroku
 heroku config:set TELEGRAM_TOKEN='<TELEGRAM_TOKEN>' # set config vars
-heroku ps:scale worker=1 # start 1 worker dyno, starts bot
-heroku ps:stop worker # or stop worker dyno, stops bot
+heroku ps:scale bot=1 # start 1 bot dyno
+heroku ps:stop bot # or stop bot dyno
 ```
 
 - https://devcenter.heroku.com/articles/dynos
