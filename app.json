@@ -5,7 +5,7 @@
   "keywords": ["cat", "bot", "telegram"],
   "env": {
     "TELEGRAM_TOKEN": {
-      "description": "Telegram HTTP bot API authentication token",
+      "description": "Telegram bot API authentication token from https://t.me/BotFather",
       "value": "123456789:AAABBBCCCDDDEEEFFFGGGHHHIIIJJJKKKLL"
     }
   }
