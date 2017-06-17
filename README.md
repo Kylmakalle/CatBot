@@ -40,7 +40,7 @@ sudo -H pip3 install -r requirements.txt
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ### Full Deploy Guide
-Just Replace repository in guide with this CatBot repo\
+Just Replace repository in guide with this CatBot repo
 
 https://github.com/Kylmakalle/heroku-telegram-bot
 
