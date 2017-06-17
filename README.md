@@ -35,24 +35,12 @@ sudo -H pip3 install -r requirements.txt
 ```
 
 ## Deploying to [Heroku](https://heroku.com/)
-**Fastest and Easiest way:** 
+**Fastest and Easiest way** 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-### Deploy using [Heroku Toolbelt](https://toolbelt.heroku.com/)
+### Full Deploy Guide
+Just Replace repository in guide with this CatBot repo\
 
-Install [Heroku Toolbelt](https://toolbelt.heroku.com/), then:
+https://github.com/Kylmakalle/heroku-telegram-bot
 
-```
-cd Catbot
-heroku login
-heroku create catbot # create app (may not be available, try your own)
-heroku buildpacks:set heroku/python # set python buildpack
-git push heroku master # deploy app to heroku
-heroku config:set TELEGRAM_TOKEN=123456789:AAABBBCCCDDDEEEFFFGGGHHHIIIJJJKKKLL # set config vars, insert your own
-heroku ps:scale bot=1 # start 1 bot dyno
-heroku ps:stop bot # or stop bot dyno
-```
-
-- https://devcenter.heroku.com/articles/dynos
-- https://devcenter.heroku.com/articles/config-vars
