@@ -35,6 +35,11 @@ sudo -H pip3 install -r requirements.txt
 ```
 
 ## Deploying to [Heroku](https://heroku.com/)
+**Fastest and Easiest way:** 
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+### Deploy using [Heroku Toolbelt](https://toolbelt.heroku.com/)
 
 Install [Heroku Toolbelt](https://toolbelt.heroku.com/), then:
 
