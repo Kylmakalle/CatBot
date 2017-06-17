@@ -6,7 +6,7 @@
   "env": {
     "TELEGRAM_TOKEN": {
       "description": "Telegram HTTP bot API authentication token",
-      "value": "TELEGRAM_TOKEN"
+      "value": "123456789:AAABBBCCCDDDEEEFFFGGGHHHIIIJJJKKKLL"
     }
   }
 }
